@@ -4,10 +4,11 @@
 		{
 			"label": "Start Development Server and Backend",
 			"type": "shell",
-			"command": "concurrently",
+			"command": "powershell",
 			"args": [
-				"\"vite\"",
-				"\"tsx watch server/index.ts\""
+				"-NoProfile",
+				"-Command",
+				"$env:PORT=5000; cd client; Start-Process -NoNewWindow powershell -ArgumentList '-NoProfile','-Command','npx vite --host'; cd ..; Start-Process -NoNewWindow powershell -ArgumentList '-NoProfile','-Command','npx tsx watch server/index.ts'"
 			],
 			"isBackground": true,
 			"group": "build",

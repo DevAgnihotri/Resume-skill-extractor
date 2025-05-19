@@ -14,6 +14,7 @@ A modern web application that extracts and analyzes skills from resumes using AI
 ## Tech Stack
 
 - Frontend:
+
   - React with TypeScript
   - Vite for build tooling
   - TailwindCSS & shadcn/ui for styling
@@ -28,16 +29,19 @@ A modern web application that extracts and analyzes skills from resumes using AI
 ## Getting Started
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/DevAgnihotri/Resume-skill-extractor.git
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
