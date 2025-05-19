@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Development Server and Backend",
+			"type": "shell",
+			"command": "concurrently",
+			"args": [
+				"\"vite\"",
+				"\"tsx watch server/index.ts\""
+			],
+			"isBackground": true,
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}

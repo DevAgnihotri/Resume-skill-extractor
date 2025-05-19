@@ -1,0 +1,52 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"vite\" \"tsx watch server/index.ts\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@radix-ui/react-tooltip": "^1.2.6",
+    "@shadcn/ui": "^0.0.4",
+    "@tanstack/react-query": "^5.76.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.43.1",
+    "drizzle-zod": "^0.7.1",
+    "express": "^5.1.0",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.511.0",
+    "multer": "^2.0.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.56.4",
+    "tailwind-merge": "^3.3.0",
+    "tsx": "^4.19.4",
+    "wink-eng-lite-web-model": "^1.8.1",
+    "wink-nlp": "^2.3.2",
+    "wouter": "^3.7.0",
+    "zod": "^3.25.3"
+  },
+  "devDependencies": {
+    "@replit/vite-plugin-cartographer": "^0.2.0",
+    "@replit/vite-plugin-runtime-error-modal": "^0.0.3",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.0.0",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vite": "^4.5.14"
+  },
+  "type": "module"
+}
